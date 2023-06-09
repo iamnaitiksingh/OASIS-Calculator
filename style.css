@@ -1,0 +1,50 @@
+header { 
+    display: flex;
+    justify-content: center;
+}
+body {
+    background: linear-gradient(90deg, rgba(213, 217, 3, 1) 0%, rgba(14, 241, 108, 1) 53%,   rgba(4, 250, 243, 1) 100%);
+     margin: 0px;
+}
+.container input {
+    border: 3px solid rgb(80, 23, 205);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 12px;
+    width: 228px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    margin-top: 10px;
+    padding: 20px;
+    height: 60px;
+    width: 20%;
+    border: 2px solid rgb(206, 56, 51);
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: yellow;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.button-special:hover {
+    background-color: yellow;
+    cursor: pointer;
+    border: 2px solid black;
+}
+footer{
+    margin-top: 51px;
+    text-align: center;
+    opacity: 0.8;
+    color: aliceblue;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+footer a{
+    color: red;
+ }
